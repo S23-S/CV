@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(142, 135, 148);
+    font-family: "Poppins", sans-serif;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.contain{
+    width: 40%;
+}
+
+
+/* Top Bckground */
+.top{
+    background-color: rgb(240, 199, 206);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    z-index: 0;
+}
+
+/* Left Box */
+.box_left{
+    background-color: rgb(240, 231, 232);
+    width: 45%;
+    margin-left: 50px;
+    margin-top: 30px;
+    z-index: 1;
+    height: 840px;
+}
+
+.box_left img{
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid rgb(240, 199, 206);
+}
+
+.box_left .border{
+    background-color: rgb(240, 199, 206);
+    width: 50%;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-left: 70px;
+    margin-top: 15px;
+    padding-top: 8px;
+}
+
+.box_left p{
+    text-align: justify;
+    padding-left: 28px;
+    padding-right: 25px;
+    font-size: 11.17px;
+}
+
+.box_right .border_right_1{
+    background-color: rgb(240, 231, 232);
+    width: 50%;
+    height: 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 25px;
+    padding-top: 8px;
+}
+
+.box_right .border_right{
+    background-color: rgb(240, 199, 206);
+    width: 50%;
+    height: 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 40px;
+    padding-top: 8px;
+}
+
+
+/* Right Box */
+.box_right{
+    width: 60%;
+    margin-right: 50px;
+    margin-top: 30px;
+    z-index: 1;
+    height: 830px;
+
+}
+
+.box_right h1{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: -25px;
+    font-size: 50px;
+}
+
+.box_right p{
+    padding-left: 60px;
+    text-align: justify;
+    font-size: 13px;
+    margin-bottom: -5px;
+}
+
+
+/* Bottom Background */
+.bottom{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
